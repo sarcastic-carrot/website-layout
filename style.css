@@ -1,12 +1,137 @@
 body {
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-.header-section {
-    display: flex;
-}
-
-.header-links > li {
-    list-style-type: none;
+.logo {
+    padding: 0;
+    margin: 0;
     flex: 1;
+    margin-left: 200px;
+    color: white;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px
+}
+
+.header {
+    height: 700px;
+    width: auto;
+    background-color: #1f2937;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    padding-top: 30px;
+}
+
+.header-links {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+
+li {
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 230px;
+}
+
+.hear-heading {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.hero-picture {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    height: 350px;
+    width: 700px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-top: 15px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 52px
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    margin-bottom: 80px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    height: 350px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 100px 400px 0px 400px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.quote-section2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 430px;
 }
